@@ -41,10 +41,15 @@ input[type=submit]:hover {
   background: #5e7f7e;
 }
 
-nav a:hover {
+.navbar-brand-custom:hover {
   color: #5e7f7e;
 }
 
+.navbar-brand-custom:active {
+  color: #999;
+}
+
+nav
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -105,7 +110,7 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
-#logo {
+.navbar-brand-custom {
   float: left;
   width: 250px;
   height: 90px;
@@ -119,9 +124,8 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
-  float: right;
-  margin-top: 25px;
+#navbarNav{
+  background-color: #fff;
 }
 
 nav a {
@@ -132,6 +136,7 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  background-color: #fff;
 }
 
 nav a:first-child {
@@ -237,5 +242,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-  
